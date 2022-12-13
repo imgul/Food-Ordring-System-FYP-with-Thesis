@@ -52,16 +52,18 @@
                                             <input type="password" class="form-control form-control-user"
                                                 id="exampleInputPassword" placeholder="Password" name="password">
                                         </div>
-                                      
+
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </button>
                                         <hr>
-                                     
+
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                       <center><p class="bg-danger w-100 text-white">{{session('error')}}</p></center> 
+                                        <center>
+                                            <p class="bg-danger w-100 text-white">{{ session('error') }}</p>
+                                        </center>
                                         <a class="small" href="forgot-password.html">Forgot Password?</a>
                                     </div>
                                     <div class="text-center">
